@@ -1,6 +1,6 @@
 {
   "name": "@thilan-tran/quicksilver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A minimal React component UI library.",
   "main": "./lib/index.js",
   "repository": "git@github.com:thilan-tran/quicksilver.git",
