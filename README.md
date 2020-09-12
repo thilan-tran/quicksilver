@@ -21,11 +21,7 @@ As of `v1`, the `DatePicker`, `TimePicker`, and `DatetimePicker` components are 
 
 The library is very lightweight at under only `5kb` zipped, with no external libraries.
 
-## Installation
-```bash
-$ npm install @thilan-tran/qss # qss -- quicksilver styles
-```
-## Usage
+## Screens
 
 <p align="center">
   <img
@@ -34,6 +30,11 @@ $ npm install @thilan-tran/qss # qss -- quicksilver styles
   />
 </p>
 
+## Installation
+```bash
+$ npm install @thilan-tran/qss # qss == quicksilver styles
+```
+## Usage
 ```js
 import { DatePicker, TimePicker, DatetimePicker } from '@thilan-tran/qss';
 
