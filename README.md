@@ -32,6 +32,7 @@ The library is very lightweight at under only `5kb` zipped, with no external lib
     src="https://user-images.githubusercontent.com/44995807/92985956-1984cb80-f46c-11ea-846a-7095ce393e33.gif"
   />
 </p>
+
 ## Installation
 ```bash
 $ npm install @thilan-tran/qss # qss == quicksilver styles
