@@ -200,7 +200,11 @@ const DatePicker = ({
   };
 
   return (
-    <div className={`dropdown-grid ${standalone ? 'standalone' : ''}`}>
+    <div
+      className={`quicksilver-styles dropdown-grid ${
+        standalone ? 'standalone' : ''
+      }`}
+    >
       <input
         type="text"
         className={`input ${disabled ? 'disable' : ''}`}

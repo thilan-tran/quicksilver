@@ -26,7 +26,7 @@ const DatetimePicker = ({ value, onChange = lambda, disabled = false }) => {
   };
 
   return (
-    <div>
+    <div className="quicksilver-styles">
       <div
         style={{
           display: 'flex',

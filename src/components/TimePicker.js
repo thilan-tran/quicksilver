@@ -120,7 +120,11 @@ const TimePicker = ({
   };
 
   return (
-    <div className={`dropdown-grid ${standalone ? 'standalone' : ''}`}>
+    <div
+      className={`quicksilver-styles dropdown-grid ${
+        standalone ? 'standalone' : ''
+      }`}
+    >
       <input
         type="text"
         className={`input ${disabled ? 'disable' : ''}`}
@@ -178,7 +182,7 @@ const TimePicker = ({
         ref={ref}
       >
         <div className="no-hover round-left">
-          {[...Array(3).keys()].map((i) => (
+          {[...Array(offsetRows).keys()].map((i) => (
             <p key={`offsettop-${i}`} className="no-hover" />
           ))}
           {[...Array(12).keys()].map((num) => (
@@ -204,12 +208,12 @@ const TimePicker = ({
               {(num + 1 + '').padStart(2, '0')}
             </p>
           ))}
-          {[...Array(3).keys()].map((i) => (
+          {[...Array(offsetRows).keys()].map((i) => (
             <p key={`offsetbot-${i}`} className="no-hover" />
           ))}
         </div>
         <div className="no-hover">
-          {[...Array(3).keys()].map((i) => (
+          {[...Array(offsetRows).keys()].map((i) => (
             <p key={`offsettop-${i}`} className="no-hover" />
           ))}
           {[...Array(60).keys()].map((num) => (
@@ -229,7 +233,7 @@ const TimePicker = ({
               {(num + '').padStart(2, '0')}
             </p>
           ))}
-          {[...Array(3).keys()].map((i) => (
+          {[...Array(offsetRows).keys()].map((i) => (
             <p key={`offsetbot-${i}`} className="no-hover" />
           ))}
         </div>
@@ -245,7 +249,7 @@ const TimePicker = ({
             <p
               key={id}
               className={getAmpm() === id ? 'highlight' : ''}
-              onClick={(e) => {
+              onClick={() => {
                 const newTime = new Date(time);
                 const hours = newTime.getHours();
                 if (id === 'PM' && hours < 12) {
