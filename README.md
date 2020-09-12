@@ -30,9 +30,10 @@ $ npm install @thilan-tran/qss # qss -- quicksilver styles
 <p align="center">
   <img
     width="500"
-    src="https://user-images.githubusercontent.com/44995807/92296179-a8cb3580-eee6-11ea-8b58-6d27145ed5da.jpg"
+    src="https://user-images.githubusercontent.com/44995807/92985956-1984cb80-f46c-11ea-846a-7095ce393e33.gif"
   />
 </p>
+
 ```js
 import { DatePicker, TimePicker, DatetimePicker } from '@thilan-tran/qss';
 
