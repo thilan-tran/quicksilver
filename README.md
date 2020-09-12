@@ -35,7 +35,7 @@ The library is very lightweight at under only `5kb` zipped, with no external lib
 
 ## Installation
 ```bash
-$ npm install @thilan-tran/qss # qss == quicksilver styles
+$ yarn add @thilan-tran/qss # qss == quicksilver styles
 ```
 ## Usage
 ```js
